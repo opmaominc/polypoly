@@ -60,6 +60,18 @@ class PLYFriendsCollectionViewCell: UICollectionViewCell {
         super.init(coder: aDecoder)
     }
     
+    override func layoutSubviews() {
+        actionButton.layer.cornerRadius = actionButton.frame.height/2
+        switch roundCorners {
+        case let .Top(radius):
+            view.roundCorners([.topLeft, .topRight], radius: radius)
+        case let .Bottom(radius):
+            view.roundCorners([.bottomLeft, .bottomRight], radius: radius)
+        case let .All(radius):
+            view.roundCorners([.topLeft, .topRight, .bottomLeft, .bottomRight], radius: radius)
+        }
+    }
+    
     //-----------------------------------
     // MARK: - Setup UI
     //-----------------------------------
@@ -129,18 +141,6 @@ class PLYFriendsCollectionViewCell: UICollectionViewCell {
             actionButton.setTitle("+ Add", for: UIControlState.normal)
             actionButton.backgroundColor = UIColor(red: 13/255, green: 173/255, blue: 255/255, alpha: 1)
             actionButton.setTitleColor(.white, for: UIControlState.normal)
-        }
-    }
-    
-    override func layoutSubviews() {
-        actionButton.layer.cornerRadius = actionButton.frame.height/2
-        switch roundCorners {
-        case let .Top(radius):
-            view.roundCorners([.topLeft, .topRight], radius: radius)
-        case let .Bottom(radius):
-            view.roundCorners([.bottomLeft, .bottomRight], radius: radius)
-        case let .All(radius):
-            view.roundCorners([.topLeft, .topRight, .bottomLeft, .bottomRight], radius: radius)
         }
     }
 }
