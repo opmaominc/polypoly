@@ -15,11 +15,12 @@ class PLYFriendsController: PLYController {
     // MARK: - Properties
     //-----------------------------------
 
+    
+    // Datasource
     fileprivate var usersToAdd: [PLYUser] = []
     fileprivate var usersInContacts: [PLYUser] = []
     
     fileprivate var datasource: [[PLYUser]] = []
-    
     fileprivate var sectionTitles: [String] = []
     
     private var collectionView: UICollectionView!
@@ -60,6 +61,7 @@ class PLYFriendsController: PLYController {
          - i.e. cardView.addSubview(yourView)
          */
         
+        // Setup the CollectionView!
         let layout = UICollectionViewFlowLayout()
         layout.minimumLineSpacing = 0.5;
         layout.headerReferenceSize = CGSize(width: cardView.frame.width, height: 50)
@@ -94,8 +96,6 @@ class PLYFriendsController: PLYController {
         usersToAdd = PLYManager.shared.quickAdds()
         usersInContacts = PLYManager.shared.invites()
         
-        print("users to add count: \(usersToAdd.count)")
-        print("users in contacts count: \(usersInContacts.count)")
         if usersToAdd.count > 0 {
             sectionTitles.append("Quick Adds")
             datasource.append(usersToAdd)
