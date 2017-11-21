@@ -25,7 +25,7 @@ class PLYFriendsCollectionViewCell: UICollectionViewCell {
     }()
     private var phoneNumberLabel: UILabel = {
         let label = UILabel()
-        label.font = label.font.withSize(12)
+        label.font = UIFont(name: "ProximaNova-Semibold", size: 12)
         label.textColor = UIColor(red: 184/255, green: 187/255, blue: 193/255, alpha: 1)
 
         return label

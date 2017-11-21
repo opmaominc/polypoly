@@ -168,6 +168,7 @@ extension PLYFriendsController: UICollectionViewDelegate, UICollectionViewDataSo
             
             let label = UILabel()
             label.text = sectionTitles[indexPath.section]
+            label.font = UIFont(name: "ProximaNova-Semibold", size: 18)
             label.textColor = UIColor(red: 78/255, green: 72/255, blue: 104/255, alpha: 1)
 
             reusableview.addSubview(label)
