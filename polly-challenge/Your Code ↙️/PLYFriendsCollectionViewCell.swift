@@ -19,8 +19,8 @@ class PLYFriendsCollectionViewCell: UICollectionViewCell {
     }()
     private var profileNameLabel: UILabel = {
         let label = UILabel()
-        label.font = UIFont(name: "ProximaNova-Semibold", size: 12)
         label.textColor = UIColor(red: 78/255, green: 72/255, blue: 104/255, alpha: 1)
+        label.font = UIFont(name: "ProximaNova-Semibold", size: 18)
         return label
     }()
     private var phoneNumberLabel: UILabel = {
@@ -32,6 +32,7 @@ class PLYFriendsCollectionViewCell: UICollectionViewCell {
     }()
     private var actionButton: UIButton = {
         let button = UIButton(type: UIButtonType.roundedRect)
+        button.titleLabel?.font =  UIFont(name: "ProximaNova-Semibold", size: 15)
         button.clipsToBounds = true
         return button
     }()
@@ -127,6 +128,7 @@ class PLYFriendsCollectionViewCell: UICollectionViewCell {
     private func updateUI() {
         avatarImageView.image = plyUser?.avatar
         profileNameLabel.text = plyUser!.firstName! + " " + plyUser!.lastName!
+
         phoneNumberLabel.text = plyUser?.phoneNumber
         if plyUser?.phoneNumber != nil {
             profileNameLabel.snp.updateConstraints({ (make) in
@@ -142,7 +144,9 @@ class PLYFriendsCollectionViewCell: UICollectionViewCell {
             actionButton.backgroundColor = UIColor(red: 13/255, green: 173/255, blue: 255/255, alpha: 1)
             actionButton.setTitleColor(.white, for: UIControlState.normal)
         }
+        layoutIfNeeded()
     }
+    
 }
 
 //-----------------------------------

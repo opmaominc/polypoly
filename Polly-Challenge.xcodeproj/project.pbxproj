@@ -15,6 +15,7 @@
 		642B62A21FC3A118007E64DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 642B62A11FC3A118007E64DF /* Assets.xcassets */; };
 		642B62A41FC3A3AB007E64DF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 642B62A31FC3A3AB007E64DF /* Info.plist */; };
 		642B62AD1FC3B10D007E64DF /* PLYFriendsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642B62AC1FC3B10D007E64DF /* PLYFriendsCollectionViewCell.swift */; };
+		647CF2F61FC4F2D50015C99C /* ProximaNova-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 642B62A01FC3A10E007E64DF /* ProximaNova-Semibold.otf */; };
 		8526C6D908CD2E50DA733AFB /* Pods_polly_challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FDA1BDF321D9D23ED0BD2F8 /* Pods_polly_challenge.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,9 +26,9 @@
 		0C8002611F84182C009C52DD /* PLYUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLYUser.swift; sourceTree = "<group>"; };
 		0C8002641F842515009C52DD /* PLYFriendsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLYFriendsController.swift; sourceTree = "<group>"; };
 		0C8002671F843472009C52DD /* PLYManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLYManager.swift; sourceTree = "<group>"; };
-		642B62A01FC3A10E007E64DF /* ProximaNova-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ProximaNova-Semibold.otf"; path = "Polly-Challenge/ProximaNova-Semibold.otf"; sourceTree = SOURCE_ROOT; };
-		642B62A11FC3A118007E64DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Polly-Challenge/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
-		642B62A31FC3A3AB007E64DF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Polly-Challenge/Info.plist"; sourceTree = SOURCE_ROOT; };
+		642B62A01FC3A10E007E64DF /* ProximaNova-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ProximaNova-Semibold.otf"; path = "polly-challenge/ProximaNova-Semibold.otf"; sourceTree = SOURCE_ROOT; };
+		642B62A11FC3A118007E64DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "polly-challenge/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
+		642B62A31FC3A3AB007E64DF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "polly-challenge/Info.plist"; sourceTree = SOURCE_ROOT; };
 		642B62AC1FC3B10D007E64DF /* PLYFriendsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PLYFriendsCollectionViewCell.swift; path = "Polly-Challenge/Your Code ↙️/PLYFriendsCollectionViewCell.swift"; sourceTree = SOURCE_ROOT; };
 		6DA9136D462B37A283CB5BD8 /* Pods-polly-challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-polly-challenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-polly-challenge/Pods-polly-challenge.debug.xcconfig"; sourceTree = "<group>"; };
 		7FDA1BDF321D9D23ED0BD2F8 /* Pods_polly_challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_polly_challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,7 +78,9 @@
 			children = (
 				0C80026A1F84385F009C52DD /* Your Code ↙️ */,
 				0C80025F1F841806009C52DD /* Boilerplate */,
-				0C80025E1F8416EF009C52DD /* Resources */,
+				642B62A11FC3A118007E64DF /* Assets.xcassets */,
+				642B62A01FC3A10E007E64DF /* ProximaNova-Semibold.otf */,
+				642B62A31FC3A3AB007E64DF /* Info.plist */,
 			);
 			path = "polly-challenge";
 			sourceTree = "<group>";
@@ -88,16 +91,6 @@
 				0C80024D1F8416D8009C52DD /* PLYController.swift */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		0C80025E1F8416EF009C52DD /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				642B62A01FC3A10E007E64DF /* ProximaNova-Semibold.otf */,
-				642B62A11FC3A118007E64DF /* Assets.xcassets */,
-				642B62A31FC3A3AB007E64DF /* Info.plist */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		0C80025F1F841806009C52DD /* Boilerplate */ = {
@@ -208,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				642B62A21FC3A118007E64DF /* Assets.xcassets in Resources */,
+				647CF2F61FC4F2D50015C99C /* ProximaNova-Semibold.otf in Resources */,
 				642B62A41FC3A3AB007E64DF /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
