@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		0C80024C1F8416D8009C52DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C80024B1F8416D8009C52DD /* AppDelegate.swift */; };
 		0C80024E1F8416D8009C52DD /* PLYController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C80024D1F8416D8009C52DD /* PLYController.swift */; };
-		0C8002531F8416D8009C52DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C8002521F8416D8009C52DD /* Assets.xcassets */; };
-		0C8002561F8416D8009C52DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C8002541F8416D8009C52DD /* LaunchScreen.storyboard */; };
 		0C8002621F84182C009C52DD /* PLYUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8002611F84182C009C52DD /* PLYUser.swift */; };
 		0C8002651F842515009C52DD /* PLYFriendsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8002641F842515009C52DD /* PLYFriendsController.swift */; };
 		0C8002681F843472009C52DD /* PLYManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8002671F843472009C52DD /* PLYManager.swift */; };
+		642B62A21FC3A118007E64DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 642B62A11FC3A118007E64DF /* Assets.xcassets */; };
+		642B62A41FC3A3AB007E64DF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 642B62A31FC3A3AB007E64DF /* Info.plist */; };
+		642B62AD1FC3B10D007E64DF /* PLYFriendsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642B62AC1FC3B10D007E64DF /* PLYFriendsCollectionViewCell.swift */; };
 		8526C6D908CD2E50DA733AFB /* Pods_polly_challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FDA1BDF321D9D23ED0BD2F8 /* Pods_polly_challenge.framework */; };
 /* End PBXBuildFile section */
 
@@ -21,13 +22,13 @@
 		0C8002481F8416D8009C52DD /* polly-challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "polly-challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C80024B1F8416D8009C52DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C80024D1F8416D8009C52DD /* PLYController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLYController.swift; sourceTree = "<group>"; };
-		0C8002521F8416D8009C52DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../Polly-Challenge/Assets.xcassets"; sourceTree = "<group>"; };
-		0C8002551F8416D8009C52DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C8002611F84182C009C52DD /* PLYUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLYUser.swift; sourceTree = "<group>"; };
-		0C8002631F8420F6009C52DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		0C8002641F842515009C52DD /* PLYFriendsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLYFriendsController.swift; sourceTree = "<group>"; };
 		0C8002671F843472009C52DD /* PLYManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLYManager.swift; sourceTree = "<group>"; };
-		0C8002691F843819009C52DD /* ProximaNova-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ProximaNova-Semibold.otf"; path = "../../Polly-Challenge/ProximaNova-Semibold.otf"; sourceTree = "<group>"; };
+		642B62A01FC3A10E007E64DF /* ProximaNova-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ProximaNova-Semibold.otf"; path = "Polly-Challenge/ProximaNova-Semibold.otf"; sourceTree = SOURCE_ROOT; };
+		642B62A11FC3A118007E64DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Polly-Challenge/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
+		642B62A31FC3A3AB007E64DF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Polly-Challenge/Info.plist"; sourceTree = SOURCE_ROOT; };
+		642B62AC1FC3B10D007E64DF /* PLYFriendsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PLYFriendsCollectionViewCell.swift; path = "Polly-Challenge/Your Code ↙️/PLYFriendsCollectionViewCell.swift"; sourceTree = SOURCE_ROOT; };
 		6DA9136D462B37A283CB5BD8 /* Pods-polly-challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-polly-challenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-polly-challenge/Pods-polly-challenge.debug.xcconfig"; sourceTree = "<group>"; };
 		7FDA1BDF321D9D23ED0BD2F8 /* Pods_polly_challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_polly_challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF845047F8ECA59DE60633CF /* Pods-polly-challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-polly-challenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-polly-challenge/Pods-polly-challenge.release.xcconfig"; sourceTree = "<group>"; };
@@ -92,10 +93,9 @@
 		0C80025E1F8416EF009C52DD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0C8002691F843819009C52DD /* ProximaNova-Semibold.otf */,
-				0C8002521F8416D8009C52DD /* Assets.xcassets */,
-				0C8002541F8416D8009C52DD /* LaunchScreen.storyboard */,
-				0C8002631F8420F6009C52DD /* Info.plist */,
+				642B62A01FC3A10E007E64DF /* ProximaNova-Semibold.otf */,
+				642B62A11FC3A118007E64DF /* Assets.xcassets */,
+				642B62A31FC3A3AB007E64DF /* Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -131,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				0C8002641F842515009C52DD /* PLYFriendsController.swift */,
+				642B62AC1FC3B10D007E64DF /* PLYFriendsCollectionViewCell.swift */,
 			);
 			path = "Your Code ↙️";
 			sourceTree = "<group>";
@@ -206,8 +207,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C8002561F8416D8009C52DD /* LaunchScreen.storyboard in Resources */,
-				0C8002531F8416D8009C52DD /* Assets.xcassets in Resources */,
+				642B62A21FC3A118007E64DF /* Assets.xcassets in Resources */,
+				642B62A41FC3A3AB007E64DF /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,24 +276,13 @@
 				0C8002621F84182C009C52DD /* PLYUser.swift in Sources */,
 				0C8002651F842515009C52DD /* PLYFriendsController.swift in Sources */,
 				0C80024E1F8416D8009C52DD /* PLYController.swift in Sources */,
+				642B62AD1FC3B10D007E64DF /* PLYFriendsCollectionViewCell.swift in Sources */,
 				0C80024C1F8416D8009C52DD /* AppDelegate.swift in Sources */,
 				0C8002681F843472009C52DD /* PLYManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		0C8002541F8416D8009C52DD /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0C8002551F8416D8009C52DD /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			path = "../../Polly-Challenge";
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0C8002581F8416D8009C52DD /* Debug */ = {

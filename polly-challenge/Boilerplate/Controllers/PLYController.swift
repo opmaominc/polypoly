@@ -54,8 +54,8 @@ class PLYController: UIViewController {
 
         // Setup subviews
         setupContainerView()
-        setupNavigationView()
         setupCardView()
+        setupNavigationView()
     }
 
     fileprivate func setupContainerView() {
