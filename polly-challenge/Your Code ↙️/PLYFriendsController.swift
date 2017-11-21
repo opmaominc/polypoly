@@ -151,7 +151,7 @@ extension PLYFriendsController: UICollectionViewDelegate, UICollectionViewDataSo
             return c
         }
         return cell
-    } 
+    }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: collectionView.frame.width, height: 50.0)
