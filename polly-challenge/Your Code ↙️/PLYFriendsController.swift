@@ -82,7 +82,6 @@ class PLYFriendsController: PLYController {
         }
     }
     
-
     //-----------------------------------
     // MARK: - Refreshing Data
     //-----------------------------------
@@ -121,6 +120,10 @@ class PLYFriendsController: PLYController {
     }
 }
 
+
+//-----------------------------------
+// MARK: - UICollectionView Delegate & DataSource Extension
+//-----------------------------------
 
 extension PLYFriendsController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
    

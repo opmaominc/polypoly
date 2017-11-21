@@ -130,8 +130,8 @@ class PLYFriendsCollectionViewCell: UICollectionViewCell {
             actionButton.backgroundColor = UIColor(red: 13/255, green: 173/255, blue: 255/255, alpha: 1)
             actionButton.setTitleColor(.white, for: UIControlState.normal)
         }
-
     }
+    
     override func layoutSubviews() {
         actionButton.layer.cornerRadius = actionButton.frame.height/2
         switch roundCorners {
@@ -145,11 +145,19 @@ class PLYFriendsCollectionViewCell: UICollectionViewCell {
     }
 }
 
+//-----------------------------------
+// MARK: - Round Corners Enum
+//-----------------------------------
+
 enum RoundCorners {
     case Top(CGFloat)
     case Bottom(CGFloat)
     case All(CGFloat)
 }
+
+//-----------------------------------
+// MARK: - UIView Extension For Round Corners
+//-----------------------------------
 
 extension UIView {
     func roundCorners(_ corners: UIRectCorner, radius: CGFloat) {
