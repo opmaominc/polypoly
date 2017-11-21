@@ -174,7 +174,8 @@ extension PLYFriendsController: UICollectionViewDelegate, UICollectionViewDataSo
             label.snp.makeConstraints({ (make) in
                 make.center.equalToSuperview()
             })
-            //do other header related calls or settups'
+
+            // Horizontal Lines next to the section title
             let line1 = UIView(frame: CGRect(x: 0, y: 0, width: 10, height: 1))
             reusableview.addSubview(line1)
             line1.snp.makeConstraints({ (make) in
